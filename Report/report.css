@@ -178,3 +178,24 @@ h3:hover {
   /* transform: scale(1.05);
   transition: transform 0.5s; Animation */
 }
+.personal-reflection p,
+#group-reflection-content p {
+ padding-top: 10px;
+}
+
+
+.personal-reflection h4,
+#group-reflection-content h4 {
+ font-weight: 40px;
+ font-size: 20px;
+ padding-top: 20px;
+ padding-bottom: 10px;
+ border-bottom: #e05353 solid 2px;
+ width: 30%;
+}
+
+
+.personal-reflection h4:hover,
+#group-reflection-content h4 {
+ color: #e05353;
+ cursor: pointer;
