@@ -171,13 +171,48 @@ section > h2 {
   font-family: "Poppins", sans-serif;
 }
 
-section > h2,
-h3:hover {
-  color: #e05353;
-  cursor: pointer;
-  /* transform: scale(1.05);
-  transition: transform 0.5s; Animation */
+.personal-reflection p,
+#group-reflection-content p,
+.personal-info p {
+ padding-top: 10px;
 }
+
+
+.personal-reflection h4,
+#group-reflection-content h4,
+.personal-info h4 {
+ font-weight: 40px;
+ font-size: 20px;
+ padding-top: 20px;
+ padding-bottom: 10px;
+ border-bottom: #e05353 solid 2px;
+ width: 30%;
+}
+
+
+.personal-reflection h4:hover,
+#group-reflection-content h4:hover,
+.personal-info h4:hover {
+ color: #e05353;
+ cursor: pointer;
+}
+
+
+.personal-info img {
+ height: 200px;
+ width: 200px;
+ border-radius: 50%;
+ object-fit: cover;
+ margin: 20px;
+}
+
+
+.personal-info p {
+ background-color: #fff1ef;
+ padding: 20px;
+ border-radius: 20px;
+}
+
 .personal-reflection p,
 #group-reflection-content p {
  padding-top: 10px;
@@ -199,3 +234,4 @@ h3:hover {
 #group-reflection-content h4 {
  color: #e05353;
  cursor: pointer;
+}
