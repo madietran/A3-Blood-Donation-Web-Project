@@ -171,9 +171,10 @@ section > h2 {
   font-family: "Poppins", sans-serif;
 }
 
-section > h2:hover {
+section > h2,
+h3:hover {
   color: #e05353;
   cursor: pointer;
-  transform: scale(1.05);
-  transition: transform 0.5s; /* Animation */
+  /* transform: scale(1.05);
+  transition: transform 0.5s; Animation */
 }

@@ -48,7 +48,9 @@
         </nav>
       </div>
     </div>
+    <!-- End Header -->
 
+    <!-- ======= Cover page ======= -->
     <div id="cover-page" class="row">
       <img class="p-0" src="login-img.jpg" alt="" />
       <div class="" id="report-info">
@@ -69,7 +71,10 @@
         <p><strong>Group</strong>: Red Bytes</p>
       </div>
     </div>
+    <!-- End Cover Page -->
+    <!-- ======= Main Content ======= -->
     <div class="row vh-100 align-items-center">
+      <!-- ======= Aside ======= -->
       <aside id="header" class="col-3">
         <div class="container d-flex align-items-center justify-content-center">
           <div id="navbar" class="navbar order-last order-lg-0">
@@ -154,13 +159,32 @@
         </div>
         <!-- .navbar -->
       </aside>
-      <!-- End Header -->
+      <!-- End Aside -->
+      <!-- ======= Report ======= -->
       <main class="col-9 h-100">
         <div class="container-fuild">
           <div class="row">
+            <!-- ======= TEAM PROFILE ======= -->
             <section id="team-profile" class="col-12 report-section">
               <h2>I. Team Profile</h2>
+              <div id="team-profile-content">
+                <!-- ======= 1.1 Team name ======= -->
+                <div id="team-name" class="pt-5">
+                  <h3 class="fw-semibold">3.1 Team Name</h3>
+                </div>
+                <!----- End Team Name ----->
+                <!-- ======= 1.2 Personal Information ======= -->
+                <div id="team-name" class="pt-5">
+                  <h3 class="fw-semibold">3.2 Personal Information</h3>
+                </div>
+
+                <!----- End Personal Information ----->
+              </div>
             </section>
+            <!----- END TEAM PROFILE ----->
+
+            <!-- ======= TOOLS ======= -->
+
             <section
               id="tools"
               style="background-color: #fff1ef"
@@ -168,182 +192,269 @@
             >
               <h2>II. Tools</h2>
             </section>
+            <!----- END TOOLS ----->
+            <!-- ======= PROJECT DESCRIPTION ======= -->
             <section id="project-description" class="col-12 report-section">
               <h2>III. Project Description</h2>
-              <div id="aim" class="pt-5"><h3>1. Aim</h3></div>
-              <div id="plan&progress" class="pt-5">
-                <h3>2. Plan and progress</h3>
-              </div>
-              <div id="risk" class="pt-5">
-                <h3>7. Risk</h3>
-                <div
-                  class="d-flex flex-column align-items-center py-5"
-                  id="risk-analysis-img"
-                >
-                  <img
-                    id="risk-analysis-matrix"
-                    style="max-height: 700px; max-width: 1000px"
-                    src="/Report/5x5-Risk-Matrix.png"
-                    alt="risk-analysis-matrix"
-                  />
-                  <label
-                    class="text-muted fst-italic pt-5"
-                    for="risk-analysis-matrix"
-                    >Figure: Risk analysis matrix
-                  </label>
+              <div id="project-description-content">
+                <!-- ======= 3.1 Overview ======= -->
+                <div id="overview" class="pt-5">
+                  <h3 class="fw-semibold">3.1 Overview</h3>
+                  <!-- ======= 3.1.1 Topic ======= -->
+                  <div id="topic" class="pt-5">
+                    <h3>3.1.2 Topic</h3>
+                  </div>
+                  <!----- End Topic ----->
+                  <!-- ======= 3.1.2 Motivation ======= -->
+                  <div id="motivation" class="pt-5">
+                    <h3>3.1.2 Motivation</h3>
+                  </div>
+                  <!----- End Motivation ----->
+                  <!-- ======= 3.1.3 Landscape ======= -->
+                  <div id="landscape" class="pt-5">
+                    <h3>3.1.3 Landscape</h3>
+                  </div>
+                  <!----- End Landscape ----->
                 </div>
+                <!----- End Overview ----->
+                <!-- ======= 3.2 Detailed Description ======= -->
+                <div id="detailed-description" class="pt-5">
+                  <h3 class="fw-semibold">3.2 Detailed description</h3>
 
-                <table class="table table-bordered table-hover">
-                  <thead>
-                    <tr style="background-color: #fff1ef; text-align: center">
-                      <th class="py-5 px-3 align-middle" scope="col">
-                        Risk event
-                      </th>
-                      <th class="py-5 px-3 align-middle" scope="col">
-                        Explanation
-                      </th>
-                      <th class="py-5 px-3 align-middle" scope="col">
-                        Probability
-                      </th>
-                      <th class="py-5 px-3 align-middle" scope="col">Impact</th>
-                      <th class="py-5 px-3 align-middle" scope="col">Score</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th class="py-5 px-3 align-middle" scope="row">
-                        Lacking knowledge and experience
-                      </th>
-                      <td class="py-5 px-3 align-middle">
-                        Since An, Triet and Nghia were not familiar with these
-                        concepts, it took us at least 1 week to familiarize
-                        ourselves with the basic concepts. Fortunately, Phuong
-                        is an expert in this field, and being aware of the
-                        situation of Phuong's group gave us a way to familiarize
-                        ourselves with the new knowledge to avoid difficulties.
-                        For example, An would focus on learning how to make a
-                        login page, and Nghia and Triet will study a lot about
-                        CSS to create a beautiful interface.
-                      </td>
-                      <td class="py-5 px-3 align-middle">Probable</td>
-                      <td class="py-5 px-3 align-middle">Low</td>
-                      <td
-                        class="py-5 px-3 align-middle"
-                        style="background-color: #fae307"
-                      >
-                        8 - Moderate
-                      </td>
-                    </tr>
-                    <tr>
-                      <th class="py-5 px-3 align-middle" scope="row">
-                        Privacy and Security
-                      </th>
-                      <td class="py-5 px-3 align-middle">
-                        Since our website will handle personal and sensitive
-                        donor information, there is a risk of data breaches or
-                        unauthorized access. We must implement robust security
-                        measures, including encryption, secure data storage, and
-                        regular security audits, to protect the privacy of our
-                        donors and maintain their trust in our platform.
-                      </td>
-                      <td class="py-5 px-3 align-middle">Possible</td>
-                      <td class="py-5 px-3 align-middle">Very High</td>
-                      <td
-                        class="py-5 px-3 align-middle"
-                        style="background-color: #ffc100"
-                      >
-                        15 - Major
-                      </td>
-                    </tr>
-                    <tr>
-                      <th class="py-5 px-3 align-middle" scope="row">Scale</th>
-                      <td class="py-5 px-3 align-middle">
-                        As the website gains popularity and user traffic
-                        increases, there is a risk of server overload and
-                        downtime. We must design and deploy the website on a
-                        reliable hosting infrastructure that can handle high
-                        volumes of traffic. Regular monitoring and proactive
-                        scalability measures will be crucial to ensure
-                        uninterrupted access for donors and stakeholders.
-                      </td>
-                      <td class="py-5 px-3 align-middle">Unlikely</td>
-                      <td class="py-5 px-3 align-middle">High</td>
-                      <td
-                        class="py-5 px-3 align-middle"
-                        style="background-color: #fae307"
-                      >
-                        8 - Moderate
-                      </td>
-                    </tr>
-                    <tr>
-                      <th class="py-5 px-3 align-middle" scope="row">
-                        Technical
-                      </th>
-                      <td class="py-5 px-3 align-middle">
-                        Integrating various technologies and platforms, such as
-                        Google Maps, and databases carries the risk of
-                        unexpected issues. We need to ensure seamless
-                        integration and data exchange between different
-                        components of the website, minimizing any potential
-                        disruptions or data inconsistencies.
-                      </td>
-                      <td class="py-5 px-3 align-middle">Possible</td>
-                      <td class="py-5 px-3 align-middle">Medium</td>
-                      <td
-                        class="py-5 px-3 align-middle"
-                        style="background-color: #fae307"
-                      >
-                        9 - Moderate
-                      </td>
-                    </tr>
-                    <tr>
-                      <th class="py-5 px-3 align-middle" scope="row">
-                        Regulatory Compliance
-                      </th>
-                      <td class="py-5 px-3 align-middle">
-                        As a platform dealing with medical data, we must comply
-                        with relevant healthcare regulations, such as data
-                        privacy laws (e.g., GDPR, HIPAA). Failure to adhere to
-                        these regulations could lead to legal consequences and
-                        damage the reputation of our project..
-                      </td>
-                      <td class="py-5 px-3 align-middle">Unlikely</td>
-                      <td class="py-5 px-3 align-middle">Very High</td>
-                      <td
-                        class="py-5 px-3 align-middle"
-                        style="background-color: #fae307"
-                      >
-                        10 - Moderate
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+                  <!-- ======= 3.2.1. Aim ======= -->
+                  <div id="aim" class="pt-5"><h3>3.2.1 Aim</h3></div>
+                  <!----- End Aim ----->
+                  <!-- ======= 3.2.2. Plan and Progress ======= -->
+                  <div id="plan&progress" class="pt-5">
+                    <h3>3.2.2 Plan and progress</h3>
+                  </div>
+                  <!----- End Plan and Progress ----->
+                  <!-- ======= 3.2.3. Roles ======= -->
+                  <div id="roles" class="pt-5">
+                    <h3>3.2.3 Roles</h3>
+                  </div>
+                  <!----- End Roles ----->
+                  <!-- ======= 3.2.4. Scope and Limits ======= -->
+                  <div id="scope&limits" class="pt-5">
+                    <h3>3.2.4 Scope and Limits</h3>
+                  </div>
+                  <!----- End Scope and LImits ----->
+                  <!-- ======= 3.2.5. Tools and Technologies ======= -->
+                  <div id="tools&technologies" class="pt-5">
+                    <h3>3.2.5 Tools and Technologies</h3>
+                  </div>
+                  <!----- End Tools and Technologies  ----->
+                  <!-- ======= 3.2.6. Testing ======= -->
+                  <div id="testing" class="pt-5">
+                    <h3>3.2.6 Testing</h3>
+                  </div>
+                  <!----- End Testing ----->
+                  <!-- ======= 3.2.7. Timeframe ======= -->
+                  <div id="timeframe" class="pt-5">
+                    <h3>3.2.7 Timeframe</h3>
+                  </div>
+                  <!----- End Timeframe ----->
+                  <!-- ======= 3.2.8. Risk ======= -->
+                  <div id="risk" class="pt-5">
+                    <h3>3.2.8 Risk</h3>
+                    <div
+                      class="d-flex flex-column align-items-center py-5"
+                      id="risk-analysis-img"
+                    >
+                      <img
+                        id="risk-analysis-matrix"
+                        style="max-height: 700px; max-width: 1000px"
+                        src="/Report/5x5-Risk-Matrix.png"
+                        alt="risk-analysis-matrix"
+                      />
+                      <label
+                        class="text-muted fst-italic pt-5"
+                        for="risk-analysis-matrix"
+                        >Figure: Risk analysis matrix
+                      </label>
+                    </div>
+
+                    <table class="table table-bordered table-hover">
+                      <thead>
+                        <tr
+                          style="background-color: #fff1ef; text-align: center"
+                        >
+                          <th class="py-5 px-3 align-middle" scope="col">
+                            Risk event
+                          </th>
+                          <th class="py-5 px-3 align-middle" scope="col">
+                            Explanation
+                          </th>
+                          <th class="py-5 px-3 align-middle" scope="col">
+                            Probability
+                          </th>
+                          <th class="py-5 px-3 align-middle" scope="col">
+                            Impact
+                          </th>
+                          <th class="py-5 px-3 align-middle" scope="col">
+                            Score
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th class="py-5 px-3 align-middle" scope="row">
+                            Lacking knowledge and experience
+                          </th>
+                          <td class="py-5 px-3 align-middle">
+                            Since An, Triet and Nghia were not familiar with
+                            these concepts, it took us at least 1 week to
+                            familiarize ourselves with the basic concepts.
+                            Fortunately, Phuong is an expert in this field, and
+                            being aware of the situation of Phuong's group gave
+                            us a way to familiarize ourselves with the new
+                            knowledge to avoid difficulties. For example, An
+                            would focus on learning how to make a login page,
+                            and Nghia and Triet will study a lot about CSS to
+                            create a beautiful interface.
+                          </td>
+                          <td class="py-5 px-3 align-middle">Probable</td>
+                          <td class="py-5 px-3 align-middle">Low</td>
+                          <td
+                            class="py-5 px-3 align-middle"
+                            style="background-color: #fae307"
+                          >
+                            8 - Moderate
+                          </td>
+                        </tr>
+                        <tr>
+                          <th class="py-5 px-3 align-middle" scope="row">
+                            Privacy and Security
+                          </th>
+                          <td class="py-5 px-3 align-middle">
+                            Since our website will handle personal and sensitive
+                            donor information, there is a risk of data breaches
+                            or unauthorized access. We must implement robust
+                            security measures, including encryption, secure data
+                            storage, and regular security audits, to protect the
+                            privacy of our donors and maintain their trust in
+                            our platform.
+                          </td>
+                          <td class="py-5 px-3 align-middle">Possible</td>
+                          <td class="py-5 px-3 align-middle">Very High</td>
+                          <td
+                            class="py-5 px-3 align-middle"
+                            style="background-color: #ffc100"
+                          >
+                            15 - Major
+                          </td>
+                        </tr>
+                        <tr>
+                          <th class="py-5 px-3 align-middle" scope="row">
+                            Scale
+                          </th>
+                          <td class="py-5 px-3 align-middle">
+                            As the website gains popularity and user traffic
+                            increases, there is a risk of server overload and
+                            downtime. We must design and deploy the website on a
+                            reliable hosting infrastructure that can handle high
+                            volumes of traffic. Regular monitoring and proactive
+                            scalability measures will be crucial to ensure
+                            uninterrupted access for donors and stakeholders.
+                          </td>
+                          <td class="py-5 px-3 align-middle">Unlikely</td>
+                          <td class="py-5 px-3 align-middle">High</td>
+                          <td
+                            class="py-5 px-3 align-middle"
+                            style="background-color: #fae307"
+                          >
+                            8 - Moderate
+                          </td>
+                        </tr>
+                        <tr>
+                          <th class="py-5 px-3 align-middle" scope="row">
+                            Technical
+                          </th>
+                          <td class="py-5 px-3 align-middle">
+                            Integrating various technologies and platforms, such
+                            as Google Maps, and databases carries the risk of
+                            unexpected issues. We need to ensure seamless
+                            integration and data exchange between different
+                            components of the website, minimizing any potential
+                            disruptions or data inconsistencies.
+                          </td>
+                          <td class="py-5 px-3 align-middle">Possible</td>
+                          <td class="py-5 px-3 align-middle">Medium</td>
+                          <td
+                            class="py-5 px-3 align-middle"
+                            style="background-color: #fae307"
+                          >
+                            9 - Moderate
+                          </td>
+                        </tr>
+                        <tr>
+                          <th class="py-5 px-3 align-middle" scope="row">
+                            Regulatory Compliance
+                          </th>
+                          <td class="py-5 px-3 align-middle">
+                            As a platform dealing with medical data, we must
+                            comply with relevant healthcare regulations, such as
+                            data privacy laws (e.g., GDPR, HIPAA). Failure to
+                            adhere to these regulations could lead to legal
+                            consequences and damage the reputation of our
+                            project..
+                          </td>
+                          <td class="py-5 px-3 align-middle">Unlikely</td>
+                          <td class="py-5 px-3 align-middle">Very High</td>
+                          <td
+                            class="py-5 px-3 align-middle"
+                            style="background-color: #fae307"
+                          >
+                            10 - Moderate
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!----- End Risk ----->
+                </div>
               </div>
+              <!----- End Detailed Description ----->
             </section>
+            <!----- END PRROJECT DESCRIPTION ----->
+            <!-- ======= SKILLS AND JOBS ======= -->
             <section
               id="skills-and-jobs"
               style="background-color: #fff1ef"
               class="col-12 report-section"
             >
               <h2>IV. Skills and Jobs</h2>
+              <div id="skills&jobs-content"></div>
             </section>
+            <!----- END SKILLS AND JOBS----->
+            <!-- ======= GROUP REFLECTIONS ======= -->
             <section id="group-reflections" class="col-12 report-section">
               <h2>V. Group Reflections</h2>
+              <div id="group-reflections-content"></div>
             </section>
+            <!----- END GROUP REFLECTIONS----->
+            <!-- ======= APPENDIX ======= -->
             <section
               id="appendix"
               style="background-color: #fff1ef"
               class="col-12 report-section"
             >
               <h2>VI. Appendix</h2>
+              <div id="appendix-content"></div>
             </section>
+            <!----- END APPENDIX ----->
+            <!-- ======= REFERENCES ======= -->
             <section class="col-12 report-section">
               <h2 id="references">VII. References</h2>
+              <div id="references-content"></div>
             </section>
+            <!----- END REFERENCES----->
           </div>
         </div>
       </main>
+      <!-- End Report -->
     </div>
+    <!-- End Main Content -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
